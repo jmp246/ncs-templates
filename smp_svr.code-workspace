@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.3.0}",
+		"nrf-connect.applications": [
+			"${workspaceFolder}\\smp_svr",
+			"${workspaceFolder}\\smp_svr_external"
+		]
+	}
+}
